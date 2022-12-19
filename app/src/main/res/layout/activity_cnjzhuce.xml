@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/migong"
+    android:gravity="center"
+    tools:context=".cnjzhuceActivity">
+    <ImageView
+        android:id="@+id/ivCategory3"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+
+        android:background="@mipmap/logo"
+        android:clickable="true"
+        >
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_user_text2"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:maxLines="1"
+            android:textSize="8dp"
+            android:hint="请输入用户名"
+            android:background="@drawable/translucent"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/inmima2"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:maxLines="1"
+            android:background="@drawable/translucent"
+            android:textSize="8dp"
+            android:hint="请输入密码"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_gravity="center"
+            android:id="@+id/zhucebtn"
+            android:layout_height="50dp"
+
+            android:background="@drawable/shape_circle"
+            android:text="注册"
+            android:textSize="8sp"/>
+
+
+    </LinearLayout>
+</LinearLayout>

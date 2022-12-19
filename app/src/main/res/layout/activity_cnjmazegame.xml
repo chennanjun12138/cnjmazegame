@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/keji"
+    >
+
+    <FrameLayout
+
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/top"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginRight="335dp"
+        android:layout_marginBottom="121dp"
+        android:background="@drawable/shape_circle"
+
+        android:text="HELP"
+        android:textColor="#fff"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/down"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/shape"
+        android:text="@string/up"
+        android:textColor="#fff"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape"
+        android:text="@string/down"
+        android:textColor="#fff"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/down"
+        android:layout_toLeftOf="@+id/down"
+        android:background="@drawable/shape"
+        android:text="@string/left"
+        android:textColor="#fff"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/down"
+        android:layout_toRightOf="@+id/down"
+        android:background="@drawable/shape"
+        android:text="@string/right"
+        android:textColor="#fff"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape1"
+        android:text="返回设置"
+        android:textColor="#fff" />
+
+    <Chronometer
+        android:id="@+id/view_timer"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="107dp"
+        android:background="@mipmap/timep"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btn_pause"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@mipmap/m2"
+        android:text=""
+        android:textColor="#fff" />
+
+
+
+</RelativeLayout>

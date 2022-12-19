@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">cnjmazegame</string>
+    <string name="startGame">开始游戏</string>
+    <string name="infoGame">游戏说明</string>
+    <string name="textGame">和我一起走迷宫</string>
+    <string name="up">↑</string>
+    <string name="down">↓</string>
+    <string name="left">←</string>
+    <string name="right">→</string>
+    <string name="jianjie">游戏简介：走迷宫是一款益智类经典小游戏</string>
+</resources>
